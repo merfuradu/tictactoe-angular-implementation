@@ -1,0 +1,22 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Create a 3x3 grid */
+    grid-gap: 5px;
+    /* Adjust gap between squares */
+    max-width: 600px;
+    /* Set maximum width of the board */
+    margin: auto;
+    /* Center the board */
+}
+
+app-square {
+    border: 1px solid gray;
+    width: 200px;
+    /* Set fixed width */
+    height: 200px;
+    /* Set fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
